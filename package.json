@@ -7,17 +7,18 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.1",
     "@testing-library/user-event": "^13.5.0",
+    "clsx": "^2.1.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-scripts": "^0.0.0",
     "web-vitals": "^2.1.4"
   },
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -37,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
-  }
+    "gh-pages": "^6.3.0",
+    "vite": "^7.3.0"
+  },
+  "homepage": "https://EnggAmmar.github.io/ammar.github.io",
 }
